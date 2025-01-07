@@ -1,0 +1,1 @@
+This example demonstrates a common error when using `unittest` in a Dockerfile. If the directory doesn't contain any test files, the `unittest discover` command will fail, leading to a build error. The solution shows how to include test files or handle the lack of tests gracefully.
